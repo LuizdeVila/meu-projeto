@@ -1,0 +1,66 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+
+  /*
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom:72px;
+  margin-left: auto;
+  */
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span, a {
+  color: #FF9900;
+}
+
+p, #footer {
+  color: #7D7987;
+
+  font-size: 14px;
+  line-height: 28px;
+}
+
+/*a + a (pegue dentro do footer um a que tem anterior a ele outro a*/
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+/*aqui foi utilizado o id, mas poderia usar class no html e chamar .line*/
+
+#line {
+  width: 568px;
+  height: 0px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
